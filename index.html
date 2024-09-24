@@ -39,27 +39,35 @@
                     </div>
                   </div>
                 </div>
-              </nav>
+            </nav>
         </header>
         <main>
-            <div class="container-lg px-lg-5 container-md container-sm py-4">
+            <div class="container-lg container-md container-sm w-lg-75 w-md-100 w-sm-100 py-4">
                 <!-- Add Book -->
-                <div class="d-flex justify-content-between align-items-center py-3 px-5">
+                <div class="d-flex justify-content-between align-items-center py-3">
                     <div>
                         <h1>Catalogo Libri</h1>
                     </div>
                     <div>
-                        <button type="button" class="btn btn-primary">Aggiungi Libro</button>
+                        <a href="#"><button type="button" class="btn btn-primary">Aggiungi Libro</button></a>
                     </div>
                 </div>
                 <!-- Table -->
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th>Titolo</th>
-                            <th>Data prestito</th>
-                            <th>Stato</th>
-                            <th>Azioni</th>
+                            <th>
+                                <span>Titolo</span>
+                            </th>
+                            <th class="d-sm-none d-md-block d-lg-block">
+                                <span>Data prestito</span>
+                            </th>
+                            <th>
+                                <span>Stato</span>
+                            </th>
+                            <th>
+                                <span>Azioni</span>
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -67,179 +75,179 @@
                             <td>
                                 <span>I pilastri della terra</span>
                             </td>
-                            <td>
+                            <td class="d-sm-none d-md-block d-lg-block">
                                 <span>-</span>
                             </td>
                             <td>
-                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem ">Disponibile</button>
+                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem; font-size: 0.75rem; ">Disponibile</button>
                             </td>
                             <td>
-                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
-                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
+                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
+                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <span>I promessi sposi</span>
                             </td>
-                            <td>
+                            <td class="d-sm-none d-md-block d-lg-block">
                                 <span>-</span>
                             </td>
                             <td>
-                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem ">Disponibile</button>
+                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem; font-size: 0.75rem;">Disponibile</button>
                             </td>
                             <td>
-                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
-                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
+                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
+                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <span>Il signore degli anelli</span>
                             </td>
-                            <td>
+                            <td class="d-sm-none d-md-block d-lg-block">
                                 <span>18/10/2023</span>
                             </td>
                             <td>
-                                <button type="button" class="btn btn-warning text-white btn-sm" style="--bs-btn-padding-y: .1rem ">In prestito</button>
+                                <button type="button" class="btn btn-warning text-white btn-sm" style="--bs-btn-padding-y: .1rem; font-size: 0.75rem;">In prestito</button>
                             </td>
                             <td>
-                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
-                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
+                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
+                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <span>Harry Potter e la pietra filosofale</span>
                             </td>
-                            <td>
+                            <td class="d-sm-none d-md-block d-lg-block">
                                 <span>-</span>
                             </td>
                             <td>
-                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem ">Disponibile</button>
+                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem; font-size: 0.75rem;">Disponibile</button>
                             </td>
                             <td>
-                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
-                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
+                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
+                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <span>Il codice Da Vinci</span>
                             </td>
-                            <td>
+                            <td class="d-sm-none d-md-block d-lg-block">
                                 <span>-</span>
                             </td>
                             <td>
-                                <button type="button" class="btn btn-danger text-white btn-sm" style="--bs-btn-padding-y: .1rem ">Non disponibile</button>
+                                <button type="button" class="btn btn-danger text-white btn-sm" style="--bs-btn-padding-y: .1rem; font-size: 0.75rem;">Non disponibile</button>
                             </td>
                             <td>
-                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
-                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
+                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
+                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <span>Shining</span>
                             </td>
-                            <td>
+                            <td class="d-sm-none d-md-block d-lg-block">
                                 <span>-</span>
                             </td>
                             <td>
-                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem ">Disponibile</button>
+                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem; font-size: 0.75rem;">Disponibile</button>
                             </td>
                             <td>
-                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
-                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
+                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
+                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <span>La divina commedia</span>
                             </td>
-                            <td>
+                            <td class="d-sm-none d-md-block d-lg-block">
                                 <span>23/09/2023</span>
                             </td>
                             <td>
-                                <button type="button" class="btn btn-warning text-white btn-sm" style="--bs-btn-padding-y: .1rem ">In prestito</button>
+                                <button type="button" class="btn btn-warning text-white btn-sm" style="--bs-btn-padding-y: .1rem; font-size: 0.75rem;">In prestito</button>
                             </td>
                             <td>
-                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
-                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
+                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
+                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <span>Il trono di spade</span>
                             </td>
-                            <td>
+                            <td class="d-sm-none d-md-block d-lg-block">
                                 <span>-</span></td>
                             <td>
-                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem ">Disponibile</button>
+                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem; font-size: 0.75rem;">Disponibile</button>
                             </td>
                             <td>
-                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
-                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
+                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
+                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <span>Il mondo di Sofia</span>
                             </td>
-                            <td>
+                            <td class="d-sm-none d-md-block d-lg-block">
                                 <span>-</span>
                             </td>
                             <td>
-                                <button type="button" class="btn btn-danger text-white btn-sm" style="--bs-btn-padding-y: .1rem ">Non disponibile</button>
+                                <button type="button" class="btn btn-danger text-white btn-sm" style="--bs-btn-padding-y: .1rem; font-size: 0.75rem;">Non disponibile</button>
                             </td>
                             <td>
-                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
-                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
+                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
+                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <span>Le cronache di Narnia: il leone, la strega e l'armadio</span>
                             </td>
-                            <td>
+                            <td class="d-sm-none d-md-block d-lg-block">
                                 <span>25/07/023</span>
                             </td>
                             <td>
-                                <button type="button" class="btn btn-warning text-white btn-sm" style="--bs-btn-padding-y: .1rem ">In prestito</button>
+                                <button type="button" class="btn btn-warning text-white btn-sm" style="--bs-btn-padding-y: .1rem; font-size: 0.75rem;">In prestito</button>
                             </td>
                             <td>
-                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
-                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
+                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
+                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <span>Il piccolo principe</span>
                             </td>
-                            <td>
+                            <td class="d-sm-none d-md-block d-lg-block">
                                 <span>-</span>
                             </td>
                             <td>
-                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem ">Disponibile</button>
+                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem; font-size: 0.75rem;">Disponibile</button>
                             </td>
                             <td>
-                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
-                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
+                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
+                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <span>La storia infinita</span>
                             </td>
-                            <td>
+                            <td class="d-sm-none d-md-block d-lg-block">
                                 <span>-</span>
                             </td>
                             <td>
-                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem ">Disponibile</button>
+                                <button type="button" class="btn btn-success btn-sm" style="--bs-btn-padding-y: .1rem; font-size: 0.75rem;">Disponibile</button>
                             </td>
                             <td>
-                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
-                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%;"></i>
+                                <i class="fa-solid fa-pencil p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
+                                <i class="fa-solid fa-trash p-1" style = "color:gray; border:1px solid gray; border-radius: 20%; font-size: 0.9rem;"></i>
                             </td>
                         </tr>
                     </tbody>
